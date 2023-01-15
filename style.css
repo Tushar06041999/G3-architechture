@@ -1,50 +1,195 @@
-/* .navigation{
-    width: 1920px;
-    height: 1322px;
-    background-color: rgba(255, 144, 14, 0.1);;
+/* navigation style start from here */
+.nav-container{
+    width: 100%;
+    height:1020px;
+    background: rgba(255, 144, 14, 0.1);
 }
 
 
-.nav-header{
+/* navbar */
+
+.navbar{
+    width: 100%;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+    margin-left:-34px;
+    margin-right: 200px;
+}
+
+.navbar .max-width{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-.nav-content{
-   
-}
+.navbar .logo a{
 
-.nav-content h1{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+text-align: center;
+color: #131313;
+text-decoration: none;
+}
+.navbar .logo a span{
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 75px;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #131313;
+   
+    
+}
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left:30px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    color: #424242;
+    text-decoration: none;
+}
+
+
+
+
+/* Navigation content style start from Here */
+
+
+.nav-image img{
+     background-repeat: no-repeat;
+     width:1050px;
+     height:600px;
+     border-radius:8px;
+     background-position:cover;
+     margin-top:20px;
+     margin-left:200px;
+     margin-right:200px;
+}
+.nav-content{
     text-align: center;
 }
-
-.nav-content p{
+nav-content h1{
     font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-color: #727272;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
 }
-
-#nav-btn{
-    height:64px;
-    width:180px;
-    background: rgb(231, 235, 7);
-}
-
- */
-
 
 /* section part start from here */
 
+.employee-image{
+    width:50%;
+    height:50%;
+    display: grid;
+    grid-template-columns: repeat(2,4fr);
+    gap:10px;
+}
+.employee{
+    display:flex;
+}
+
+.team-image img{
+    height:300px;
+    width: 300px;
+}
+
+
+#uniquecolor0{
+width: 468px;
+height: 106px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 45px;
+line-height: 53px;
+color: #727272;
+}
+
+#uniquecolor1{
+width: 468px;
+height: 106px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+
+
+}
+
+#uniquecolor2{
+    width: 468px;
+    height: 106px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FF900E;
+}
+
+
+#employee-section2{
+    width:537px;
+    height:304px;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.employee-section p{
+    width: 537px;
+    height: 78px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+#employee-sectionbtn,.nav-content #nav-btn{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    border:none;
+    border-radius:5px;
+}
+/* employee section start from here */
+
 
 .section-container{
+
+    margin-left: 200px;
+    margin-right: 200px;
    
+}
+
+.left-section{
+    width: 586px;
+    height: 982px;
 }
 
 .section-features p{
@@ -56,19 +201,37 @@ color: #727272;
     color: #727272;
    
 }
+
+.section-features h2{
+width: 468px;
+height: 106px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+border-left:8px solid  #FF900E;
+}
+
 .section-info{
     display:grid;
     grid-template-columns: repeat(2,1fr);
 }
 
 .section-data{
-    width:586px;
-    height:170px;
+    width: 456px;
+    height:130px;
+    left: 240px;
+    top: 2904px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
 }
 
 .section-image img{
-    width: 708px;
-    height: 982px;
+    width: 500px;
+    height: 830px;
 }
 
 
@@ -118,7 +281,25 @@ color: #727272;
 margin-top: -18px;
 
 }
+/* facts section start from here */
 
+.facts-section h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+}
+
+.facts-section p,.section-data p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
 
 
 /* sponsarship section start from here */
