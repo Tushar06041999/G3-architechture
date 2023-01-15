@@ -415,6 +415,51 @@ margin-top: -18px;
 
 /* Resposive Design Part start from here */
 
-@media screen and  {
+@media only screen and (max-width:580px) {
+
+    employee-image{
+        display: grid;
+        grid-template-columns: repeat(1,5fr);
+
+    }
+
+    #employee-section2{
+        display:none;
+    }
     
-}
+    /* .team-image{
+        display: grid;
+        grid-template-columns: repeat(1,5fr);
+    } */
+    .employee-section{
+        display:grid;
+        grid-template-columns: repeat(1,5fr);
+        
+        
+    }
+    .section-info{
+        display: grid;
+        grid-template-columns: repeat(1,5fr);
+    }
+    .card-container{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:20px;
+        width:100%;
+    }
+
+    .bonus-section{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sponser{
+      display:grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-content: center;
+      row-gap: 10px;
+    }
+    .footer-container p{
+        display:inline;
+        box-sizing: border-box;
+    }
+  }
