@@ -85,7 +85,7 @@ nav-content h1{
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    font-size:70px;
     line-height: 53px;
     color: #131313;
 }
@@ -188,7 +188,7 @@ color: #131313;
 }
 
 .left-section{
-    width: 586px;
+    width: 560px;
     height: 982px;
 }
 
@@ -234,6 +234,22 @@ border-left:8px solid  #FF900E;
     height: 830px;
 }
 
+#section-img-btn{
+    width:250px;
+    height: 150px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    position:relative;
+    bottom:-757px;
+    right:571px;
+}
+
 
 
 /* card section start from here */
@@ -258,6 +274,10 @@ border-left:8px solid  #FF900E;
     height: 136.22px;
     margin-top: 30px;
     margin-left: 14px;
+}
+
+.card-element:hover{
+    background-color: #FF900E;
 }
 
 .card-section h2{
@@ -299,6 +319,34 @@ margin-top: -18px;
     font-size: 16px;
     line-height: 26px;
     color: #727272;
+}
+
+
+/* Bonus mark section start from here */
+
+.bonus-heading{
+    text-align:center;
+    margin-top:100px;
+    margin-bottom: 100px;
+
+}
+
+.bonus-section{
+    display:flex;
+}
+
+.bonus-image img{
+    height:300px;
+    width:300px;
+}
+
+.bonus-p p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-left:80px;
 }
 
 
@@ -362,4 +410,11 @@ margin-top: -18px;
     text-align: center;
     margin-top: 22px;
     color: #424242;
+}
+
+
+/* Resposive Design Part start from here */
+
+@media screen and  {
+    
 }
